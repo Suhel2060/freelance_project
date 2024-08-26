@@ -1,0 +1,62 @@
+.bgimage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    height: 35rem;
+    width: 100%;
+    background-image: url('../logo/homeimage1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+.bgoverlay{
+    position:absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 35rem;
+    z-index: -9;
+    background-color: #3a3a3a;
+    opacity: 0.85;
+}
+.homepage{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+}
+
+.homepage-title{
+    font-size: 4.058824rem;
+    font-family:'DM Serif Display',serif ;
+    color: #ffffff;
+    text-transform: none;
+    line-height: 76px;
+    letter-spacing: 1.3px;
+    -webkit-text-stroke-width: 0px;
+    stroke-width: 0px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    text-shadow: 3px 0px 11px rgba(255, 255, 255, 0.3);
+    font-weight:bolder;
+}
+
+.homepage-subtitle{
+ font-size: 2.517647rem;;
+    color: #ffffff;
+    text-transform: none;
+    font-style: italic;
+    line-height: 76px;
+    letter-spacing: 1.3px;
+    -webkit-text-stroke-width: 0px;
+    stroke-width: 0px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    text-shadow: 14px 18px 51px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+}
