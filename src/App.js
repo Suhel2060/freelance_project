@@ -1,4 +1,7 @@
 import About from "./components/About";
+import ClientSection from "./components/ClientSection";
+
+
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 
@@ -10,6 +13,7 @@ function App() {
    <Navbar/>
    <Homepage/>
    <About/>
+    <ClientSection/>
    </div>
    </>
     

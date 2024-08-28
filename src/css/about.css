@@ -5,6 +5,7 @@
 .about{
     background: transparent;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #7E9DBD 100%);
+   
 }
 .aboutus{
     display: flex;
@@ -24,14 +25,14 @@ h2{
     font-family: cursive;
 }
 .about-hireus-container{
-margin: 0rem 3rem 3rem 3rem;
+margin: 0rem 3rem 0rem 3rem;
 }
 .about-hireus{
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
 }
 .about-hireus-item{
     max-width: 100%;
