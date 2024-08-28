@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/homepage.css'
-import "animate.css/animate.compat.css"
+
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Homepage = () => {
@@ -11,7 +11,9 @@ const Homepage = () => {
 
 
 </div>
-<div className="bgoverlay"></div>
+<div className="bgoverlay">
+  
+</div>
 <h2 className='homepage-title'>
 <ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll  >
 Verse Engineering and Bulders
