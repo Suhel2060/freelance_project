@@ -4,6 +4,7 @@ import ClientSection from "./components/ClientSection";
 
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
+import Visualization from "./components/Visualization";
 
 function App() {
   return (
@@ -13,7 +14,11 @@ function App() {
    <Navbar/>
    <Homepage/>
    <About/>
-    <ClientSection/>
+   <div style={{backgroundImage: "linear-gradient(180deg, #EEF8FF 0%, #EEF8FF 100%)"}}>
+   <ClientSection/>
+   <Visualization/>
+   </div>
+    
    </div>
    </>
     
