@@ -13,9 +13,9 @@ const About = () => {
                         <h2>About us</h2>
                         <h6>We’re a skilled team dedicated to providing top-notch consultancy services in various fields. With expertise in civil and mechanical projects, we prioritize professionalism, integrity, and client satisfaction.</h6>
                     </div>
-                    <div className="aboutus-img">
+                    {/* <div className="aboutus-img">
                         <img src={aboutimage1} alt="" className='aboutimage' />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="about-hireus-container">
                     <h2>Hire Us For</h2>

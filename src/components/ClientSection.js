@@ -9,12 +9,12 @@ import house_2 from '../logo/house(3).jpg'
 
 const ClientSection = () => {
     return (
-        <div className='bg-white pb-5'>
+        <div className='pb-5'>
             <section className='container client-section text-center'>
                 <div className='client-heading pt-5 pb-4'>
                     <h1>Clients We've Worked With</h1>
                 </div>
-                <div className='client-content m-auto'>
+                <div className='client-content'>
                    
                     <div class="row">
                         <div class="col">

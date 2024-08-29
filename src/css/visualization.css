@@ -2,8 +2,8 @@
     font-family: "DM Serif Text", serif;
 }
 .visual-img{
-    width: 250px;
-    height: 150px;
+    width: 265px;
+    height: auto;
 }
 .visualization-list{
     display: flex;
@@ -15,9 +15,8 @@ ul{
     list-style: none;
 }
 .list-group-item{
-    /* width: 24%;  */
-    /* margin: 1%;   */
-    box-sizing: border-box;
+   
+    /* box-sizing: border-box; */
     padding: 0px 5px 8px 5px;
 
 }

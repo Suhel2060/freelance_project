@@ -3,13 +3,14 @@ import '../css/visualization.css'
 
 const Visualization = () => {
     return (
-        <div className='bg-white'>
+        <div>
             <section className='container visualization-section '>
                 <div className="visualization-title text-center mb-5">
                     <h1>3D Visualization</h1>
                 </div>
                 <div className='visualization-content'>
-                    <ul className=" visualization-list">
+                  
+                    <ul className="visualization-list p-0">
                         <li className="list-group-item"> <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423455041_1948863518842323_9222547761492891518_n.jpg' alt='' className='visual-img' /></li>
                         <li className="list-group-item"><img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423147267_1506384156605105_7881422875286805737_n.jpg' alt='' className='visual-img' /></li>
                         <li className="list-group-item"> <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423454621_765258068851305_7183644582297952428_n.jpg' alt='' className='visual-img' /></li>
@@ -22,25 +23,6 @@ const Visualization = () => {
                         <li className="list-group-item"> <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423062810_1454453022175429_3071229292921686941_n.jpg' alt='' className='visual-img' /></li>
                         <li className="list-group-item"> <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423062810_1454453022175429_3071229292921686941_n.jpg' alt='' className='visual-img' /></li>
                     </ul>
-                    <ul className=" visualization-list">
-         
-                        
-                    </ul>
-                    {/* <div className="row">
-                        <div className="col">
-                            <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423455041_1948863518842323_9222547761492891518_n.jpg' alt='' className='visual-img' />
-                        </div>
-                        <div className="col">
-                            <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423147267_1506384156605105_7881422875286805737_n.jpg' alt='' className='visual-img' />
-                        </div>
-                        <div className="col">
-                            <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423454621_765258068851305_7183644582297952428_n.jpg' alt='' className='visual-img' />
-                        </div>
-                        <div className="col">
-                            <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423062810_1454453022175429_3071229292921686941_n.jpg' alt='' className='visual-img' />
-                        </div>
-                    </div> */}
-
                 </div>
             </section>
 
