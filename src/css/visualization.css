@@ -1,0 +1,22 @@
+.visualization-title{
+    font-family: "DM Serif Text", serif;
+}
+.visual-img{
+    width: 265px;
+    height: auto;
+}
+.visualization-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul{
+    list-style: none;
+}
+.list-group-item{
+   
+    /* box-sizing: border-box; */
+    padding: 0px 5px 8px 5px;
+
+}
