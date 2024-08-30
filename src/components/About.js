@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutimage1 from '../logo/aboutimage1.jpg'
+// import aboutimage1 from '../logo/aboutimage1.jpg'
 import '../css/about.css'
 
 import ScrollAnimation from 'react-animate-on-scroll';
