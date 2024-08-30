@@ -16,8 +16,8 @@ const ClientSection = () => {
                 </div>
                 <div className='client-content'>
                    
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className='client-img'>
                                     <img src={NLG} alt="" className='client-img' />
@@ -27,7 +27,7 @@ const ClientSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className='client-img'>
                                     <img src={siddharth} alt="" className='client-img' />
@@ -37,7 +37,7 @@ const ClientSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className='client-img'>
                                     <img src={shikhar} alt="" className='client-img' />
@@ -48,8 +48,8 @@ const ClientSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className=''>
                                     <img src={house} alt="" className='house-img' />
@@ -59,7 +59,7 @@ const ClientSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className=''>
                                     <img src={house_1} alt="" className='house-img' />
@@ -69,7 +69,7 @@ const ClientSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <div className="client-detail ms-4">
                                 <div className=''>
                                     <img src={house_2} alt="" className='house-img' />

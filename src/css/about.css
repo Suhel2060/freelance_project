@@ -18,11 +18,15 @@ h6{
     font-size: 1.2rem;
     font-family: cursive;
     font-weight: unset;
+    color: #3a3a3a;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
 }
 h2{
     margin-bottom: 2rem;
     font-size: 3.0588235294118rem;
-    font-family: cursive;
+    font-family: "DM Serif Text", serif;
+    color: #3b3b3b;
 }
 .about-hireus-container{
 margin: 0rem 3rem 0rem 3rem;
@@ -41,12 +45,16 @@ margin: 0rem 3rem 0rem 3rem;
 
 }
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-style: inherit;
     vertical-align: baseline;
     margin-top: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    color: #4b4f58;
 }
-.h4{
+h4{
     font-weight: bolder;
+    color: #3b3745;
+    font-family: "DM Serif Text", serif;
 }
 /* d-flex justify-content-around */

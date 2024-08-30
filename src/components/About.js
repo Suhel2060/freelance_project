@@ -21,7 +21,7 @@ const About = () => {
                     <h2>Hire Us For</h2>
                     <div className="about-hireus ">
                     <ScrollAnimation animateIn="fadeInUp" animateOnce={true} animatePreScroll duration={1} >
-                    <div className="about-hireus-item">
+                    <div className="about-hireus-item mb-3">
                             <h4>Architectiral &Structural Designs (2D & 3D)</h4>
                             <p>We create detailed plans and models for buildings using advanced software.</p>
                         </div>
