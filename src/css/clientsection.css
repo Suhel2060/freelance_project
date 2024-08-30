@@ -4,6 +4,7 @@
     font-family: "DM Serif Text", serif;
     font-size: 60px;
   font-style: normal;
+  color: #383836;
   
 }
 /* img{
@@ -33,6 +34,7 @@
     font-size: 20px;
     font-family: "DM Serif Text", serif;
     padding: 10px 0px 5px 0px;
+    color: #4b5a6f;
 
 }
 .col:nth-child(2) {

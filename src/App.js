@@ -1,10 +1,12 @@
 import About from "./components/About";
 import ClientSection from "./components/ClientSection";
 import CompanyDetail from "./components/CompanyDetail";
+import Footer from "./components/Footer";
 
 
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
+import TeamContent from "./components/TeamContent";
 import Visualization from "./components/Visualization";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <ClientSection />
           <Visualization />
           <CompanyDetail/>
+          <TeamContent/>
+          <Footer/>
         </div>
 
       </div>
