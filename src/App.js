@@ -7,8 +7,11 @@ import {
 
 
 import Home from "./components/main_components/Home";
-import Navbar from "./components/home_components/Navbar";
+import Navbar from "./components/main_components/Navbar";
 import About from "./components/main_components/About";
+import Services from "./components/main_components/Services";
+import Contact from "./components/main_components/Contact";
+import Footer from "./components/main_components/Footer";
 
 
 function App() {
@@ -20,7 +23,11 @@ function App() {
         <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/service" element={<Services/>}/>
+        <Route exact path="/contact" element={<Contact/>}/>
+        
         </Routes>
+        <Footer/>
         </Router>
 
       </div>

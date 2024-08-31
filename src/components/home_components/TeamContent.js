@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const TeamContent = () => {
     return (
-        <div className='team-container my-4'>
+        <div className='team-container py-1'>
             <section className=' container '>
                 <div className="row mb-5">
                     <div className="col-md-6">
@@ -17,7 +17,7 @@ const TeamContent = () => {
                     </div>
                 </div>
                 <ScrollAnimation animateIn="fadeInUp" animateOnce={true} animatePreScroll duration={1} >        
-                    <ul className='image-list p-0 pb-2'>
+                    <ul className='image-list p-0 pb-5'>
                         <li className="list-group-item">
                         <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/IMG_8527-1-1-scaled.jpg' alt='' />
                         </li>
@@ -31,7 +31,7 @@ const TeamContent = () => {
               
                 </ScrollAnimation>
             </section>
-
+        
         </div>
     )
 }
