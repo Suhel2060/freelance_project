@@ -4,8 +4,9 @@ import ClientSection from '../home_components/ClientSection'
 import Visualization from '../home_components/Visualization'
 import CompanyDetail from '../home_components/CompanyDetail'
 import TeamContent from '../home_components/TeamContent'
-import Footer from '../home_components/Footer'
+
 import Homepage from '../home_components/Homepage'
+
 
 const Home = () => {
   return (
@@ -17,7 +18,8 @@ const Home = () => {
           <Visualization />
           <CompanyDetail/>
           <TeamContent/>
-          <Footer/>
+         
+         
         </div>
   </>
   )

@@ -1,21 +1,12 @@
-.aboutimage{
-    width: 42rem;
-    height: 25rem;
-}
-.about{
+
+.about-container{
     background: transparent;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #7E9DBD 100%);
    
 }
-.aboutus{
-    display: flex;
-    flex-direction: row;
-    padding: 4rem 3.5rem 0rem 3.5rem;
 
-    
-}
 h6{
-    font-size: 1.2rem;
+    font-size: 16px;
     font-family: cursive;
     font-weight: unset;
     color: #3a3a3a;
