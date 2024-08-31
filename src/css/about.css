@@ -57,4 +57,30 @@ h4{
     color: #3b3745;
     font-family: "DM Serif Text", serif;
 }
-/* d-flex justify-content-around */
+
+
+@media screen and (max-width: 583px) {
+    .about-hireus{
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .homepage-title{
+
+        font-size: 2.9588235294118rem;
+        font-family: "DM Serif Text", serif;
+
+    }
+  }
+@media screen and (max-width: 473px) {
+    .about-hireus{
+
+        display: grid;
+        grid-template-columns:auto;
+    }
+    .homepage-title{
+
+        font-size: 2.5588235294118rem;
+
+    }
+  }

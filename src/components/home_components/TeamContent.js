@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/teamcontent.css'
+import '../../css/teamcontent.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const TeamContent = () => {

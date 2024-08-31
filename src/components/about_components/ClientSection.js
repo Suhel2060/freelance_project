@@ -1,12 +1,12 @@
 import React from 'react'
-import '../css/homepage.css'
+import '../../css/homepage.css'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const Homepage = () => {
+const ClientSection = () => {
   return (
-<>
-<div className="homepage">
+ <>
+ <div className="h-20 homepage">
 <div className='bgimage'>
 
 
@@ -16,18 +16,12 @@ const Homepage = () => {
 </div>
 <h2 className='homepage-title'>
 <ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll  >
-Verse Engineering and Bulders
+Services We Offer
 </ScrollAnimation>
 </h2>
 
-<h3 className='homepage-subtitle'>
-<ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll >
-Imagine Design, Buld
-</ScrollAnimation>
-</h3>
-</div>
-</>
+</div></>
   )
 }
 
-export default Homepage
+export default ClientSection
