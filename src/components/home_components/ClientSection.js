@@ -1,11 +1,11 @@
 import React from 'react'
-import '../css/clientsection.css'
-import NLG from '../logo/NLG.png'
-import siddharth from '../logo/siddharth.png'
-import shikhar from '../logo/shikhar.png'
-import house from '../logo/house.jpg'
-import house_1 from '../logo/house(1).jpg'
-import house_2 from '../logo/house(3).jpg'
+import '../../css/clientsection.css'
+import NLG from '../../logo/NLG.png'
+import siddharth from '../../logo/siddharth.png'
+import shikhar from '../../logo/shikhar.png'
+import house from '../../logo/house.jpg'
+import house_1 from '../../logo/house(1).jpg'
+import house_2 from '../../logo/house(3).jpg'
 
 const ClientSection = () => {
     return (

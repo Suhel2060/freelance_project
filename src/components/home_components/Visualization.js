@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/visualization.css'
+import '../../css/visualization.css'
 
 const Visualization = () => {
     return (
