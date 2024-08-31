@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
 <>
-{/* <nav className="navbar">
+ <nav className="navbar">
   <div className="container-fluid">
     <div className="image-container " >
     <img src={logo} alt="" className="logo rounded-circle" />
@@ -20,7 +20,7 @@ const Navbar = () => {
   <Link className="nav-items mr-5" to="">Contact</Link>
 </div>
   </div>
-</nav> */}
+</nav> 
 
 {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
