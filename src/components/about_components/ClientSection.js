@@ -20,7 +20,8 @@ About Verse
 </ScrollAnimation>
 </h2>
 
-</div></>
+</div>
+</>
   )
 }
 
