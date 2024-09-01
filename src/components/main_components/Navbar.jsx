@@ -38,16 +38,16 @@ console.log(location)
     <div class="navbar-lg float-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-        <Link className="nav-items" to="/">HOME</Link>
+        <Link className={`nav-items ${location.pathname === "/" ? "active" : ""}`}   to="/">HOME</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-items" to="/service">SERVICES</Link>
+        <Link className={`nav-items ${location.pathname === "/service" ? "active" : ""}`}  to="/service">SERVICES</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-items" to="/about">ABOUT</Link>
+        <Link className={`nav-items ${location.pathname === "/about" ? "active" : ""}`}  to="/about">ABOUT</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-items" to="/contact">CONTACT</Link>
+        <Link className={`nav-items ${location.pathname === "/contact" ? "active" : ""}`}  to="/contact">CONTACT</Link>
         </li>
        
       </ul>
@@ -67,16 +67,16 @@ console.log(location)
   <div class="offcanvas-body">
   <ul class="">
         <li>
-        <Link className="nav-link" to="/">HOME</Link>
+        <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">HOME</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/service">SERVICES</Link>
+        <Link className={`nav-link ${location.pathname === "/service" ? "active" : ""}`} to="/service">SERVICES</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/about">ABOUT</Link>
+        <Link className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} to="/about">ABOUT</Link>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/contact">CONTACT</Link>
+        <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact">CONTACT</Link>
         </li>
        
       </ul>

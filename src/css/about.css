@@ -86,12 +86,7 @@ h4{
 
     }
   }
-@media screen and (max-width: 380px) {
-    .image-list img {
-        width: 330px;
-        height: 238px;
-    }
-  }
+
 
   /* services */
   .services-button{

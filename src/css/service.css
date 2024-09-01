@@ -4,9 +4,117 @@
 
 }
 .service-image{
+    padding: 5rem;
     box-sizing: border-box;
     height: 38rem;
     width: 40rem;}
 .service-aboutus-info{
-
+margin-top: 5rem;
+padding: 2rem;
 }
+
+.service-aboutus-info h5,.service-aboutus-info p,.core{
+    margin: 0px 3rem 6rem 0rem;
+}
+.service-aboutus-info p{
+    font-size: 1.1rem;
+}
+.core h3{
+    font-size: 2.5rem;
+    font-family: 'DM Serif Display', serif;
+font-weight: 700;
+}
+
+.core div{
+font-size: 1.2rem;
+margin: 2px 0px 0.5rem 0px;
+}
+
+.core div i{
+    color: black;
+    font-weight: 900;
+    }
+
+
+.subimage{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+.subimage-img{
+    height: 20rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.subimage-img img{
+    height: 72%;
+    width: 66%;
+}
+.image_class{
+    height: 85%;
+    width: 37%;
+}
+
+@media screen and (max-width: 875px) {
+    .service-container{
+        display: grid;
+        grid-template-columns: auto;
+    
+    }
+    .service-aboutus-info {
+        padding: 2rem;
+        margin-top: 0px;
+
+    }
+    
+.subimage{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+  }
+@media screen and (max-width: 768px) {
+    .subimage-img{
+        height: 20rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }
+@media screen and (max-width: 642px) {
+
+    .service-image {
+        padding-top: 5rem;
+        box-sizing: border-box;
+        height: 33rem;
+        width: 35rem;
+    }
+
+  }
+@media screen and (max-width: 558px) {
+
+    .service-image {
+        padding-top: 5rem;
+        box-sizing: border-box;
+        height: 28rem;
+        width: 100%;
+    }
+    .image_class {
+        height: 90%;
+        width: 50%;
+    }
+    .core div{
+        font-size: 1rem;
+        margin: 2px 0px 0.5rem 0px;
+        }
+
+  }
