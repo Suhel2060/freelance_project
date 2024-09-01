@@ -1,0 +1,12 @@
+.service-container{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.service-image{
+    box-sizing: border-box;
+    height: 38rem;
+    width: 40rem;}
+.service-aboutus-info{
+
+}

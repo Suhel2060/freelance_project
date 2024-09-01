@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from '../../logo/logo.jpg'
 import '../../css/navbar.css'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 const Navbar = () => {
+  const location=useLocation();
+  useEffect(()=>{
+console.log(location)
+  }
+)
   return (
+
+  
+
 <>
  {/* <nav className="navbar">
   <div className="container-fluid">

@@ -1,0 +1,20 @@
+.contactuscontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* .clientsectioninfo{
+    width: 50%;
+} */
+
+.clientsectionform{
+    background-color: white;
+    margin-right: 1.5rem;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 423px) {
+    .contactuscontainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
