@@ -35,3 +35,9 @@
     margin-left: 12px;
    
 }
+@media screen and (max-width: 380px) {
+    .image-list img {
+        width: 330px;
+        height: 238px;
+    }
+  }

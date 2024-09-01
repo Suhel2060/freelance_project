@@ -1,12 +1,21 @@
-
-.about-container{
+.aboutimage{
+    width: 42rem;
+    height: 25rem;
+}
+.about{
     background: transparent;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #7E9DBD 100%);
    
 }
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 3.5rem 0rem 3.5rem;
 
+    
+}
 h6{
-    font-size: 16px;
+    font-size: 1.2rem;
     font-family: cursive;
     font-weight: unset;
     color: #3a3a3a;
@@ -49,7 +58,9 @@ h4{
     font-family: "DM Serif Text", serif;
 }
 
-
+.about{
+    max-width: 100%;
+}
 @media screen and (max-width: 583px) {
     .about-hireus{
 
@@ -74,4 +85,30 @@ h4{
         font-size: 2.5588235294118rem;
 
     }
+  }
+@media screen and (max-width: 380px) {
+    .image-list img {
+        width: 330px;
+        height: 238px;
+    }
+  }
+
+  /* services */
+  .services-button{
+    color: #2c2927;
+    border-style: solid;
+    text-decoration: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    padding: 8px 22px;
+    color: black;
+  }
+  .aboutsection-hireus-section{
+    margin-bottom: 5rem;
+  }
+  .aboutsection-data, .services-button{
+    margin: 20px;
   }

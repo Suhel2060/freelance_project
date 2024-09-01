@@ -1,13 +1,16 @@
 import React from 'react'
 import ClientSection from '../about_components/ClientSection'
-import Aboutus from '../home_components/About'
-
+import AboutSection from '../about_components/aboutus_section'
+import Teamcontent from '../about_components/teamContext'
+import RecentWork from '../about_components/RecentWork'
 
 const About = () => {
   return (
 <>
 <ClientSection/>
-<Aboutus/>
+<AboutSection/>
+<RecentWork/>
+<Teamcontent/>
 
 </>
   )

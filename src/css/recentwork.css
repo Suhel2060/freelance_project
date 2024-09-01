@@ -1,0 +1,39 @@
+.pastworkcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;height: 100%;
+    padding-bottom:11rem ;
+
+}
+
+img{
+ height: 100%;
+ width: 100%;
+}
+.gallery{
+    margin: 25px;
+    height: 22rem;
+}
+
+.aboutsection-container{
+    position: relative;
+    top: -6rem;
+}
+@media screen and (max-width: 883px) {
+    .pastworkcontainer{
+        display: grid;
+        grid-template-columns:auto auto;
+    }
+
+    .aboutsection-container{
+        position: static;
+    
+    }
+}
+@media screen and (max-width: 486px) {
+    .pastworkcontainer{
+        display: grid;
+        grid-template-columns:auto;
+    }
+
+}
