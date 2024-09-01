@@ -7,7 +7,22 @@ import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
   const location=useLocation();
   useEffect(()=>{
-console.log(location)
+switch(location.pathname){
+  case "/":
+    document.title="bidurengineering";
+    break;
+  case "/service":
+    document.title="Services - bidurengineering";
+    break;
+  case "/about":
+    document.title="About - bidurengineering";
+    break;
+  case "/contact":
+    document.title="Contact - bidurengineering";
+    break;
+    default:
+
+}
   }
 )
   return (
@@ -30,23 +45,23 @@ console.log(location)
   </div>
 </nav>  */}
 
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/"> <img src={logo} alt="" className="logo rounded-circle" /></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive" style={{position:'absolute',right:'20px'}}> <span class="navbar-toggler-icon"></span></button>
+<nav className="navbar navbar-expand-lg">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/"> <img src={logo} alt="" className="logo rounded-circle" /></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive" style={{position:'absolute',right:'20px'}}> <span className="navbar-toggler-icon"></span></button>
    
-    <div class="navbar-lg float-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
+    <div className="navbar-lg float-end" id="navbarSupportedContent">
+      <ul className="navbar-nav mb-2 mb-lg-0">
+        <li className="nav-item">
         <Link className={`nav-items ${location.pathname === "/" ? "active" : ""}`}   to="/">HOME</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-items ${location.pathname === "/service" ? "active" : ""}`}  to="/service">SERVICES</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-items ${location.pathname === "/about" ? "active" : ""}`}  to="/about">ABOUT</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-items ${location.pathname === "/contact" ? "active" : ""}`}  to="/contact">CONTACT</Link>
         </li>
        
@@ -59,23 +74,23 @@ console.log(location)
 
 
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-  <div class="offcanvas-header">
-  <a class="navbar-brand" href="/"> <img src={logo} alt="" className="logo rounded-circle" /></a>
-    <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close" ></button>
+<div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div className="offcanvas-header">
+  <a className="navbar-brand" href="/"> <img src={logo} alt="" className="logo rounded-circle" /></a>
+    <button type="button" className="btn-close bg-white" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close" ></button>
   </div>
-  <div class="offcanvas-body">
-  <ul class="">
+  <div className="offcanvas-body">
+  <ul className="">
         <li>
         <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">HOME</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-link ${location.pathname === "/service" ? "active" : ""}`} to="/service">SERVICES</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} to="/about">ABOUT</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`} to="/contact">CONTACT</Link>
         </li>
        

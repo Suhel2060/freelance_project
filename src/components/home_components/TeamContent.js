@@ -22,10 +22,10 @@ const TeamContent = () => {
                         <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/IMG_8527-1-1-scaled.jpg' alt='' />
                         </li>
                         <li className="list-group-item">
-                        <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/IMG_8527-1-1-scaled.jpg' alt='' />
+                        <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/IMG_2725-scaled.jpg' alt='' />
                         </li>
                         <li className="list-group-item">
-                        <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/IMG_8527-1-1-scaled.jpg' alt='' />
+                        <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/423422468_702611448745299_6801262476105511496_n.jpg' alt='' />
                         </li>
                     </ul>
               

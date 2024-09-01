@@ -16,13 +16,13 @@ const Homepage = () => {
 </div>
 <h2 className='homepage-title'>
 <ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll  >
-Verse Engineering and Bulders
+Bidur Engineering Consultancy
 </ScrollAnimation>
 </h2>
 
 <h3 className='homepage-subtitle'>
 <ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll >
-Imagine Design, Buld
+Imagine Design, Build
 </ScrollAnimation>
 </h3>
 </div>
