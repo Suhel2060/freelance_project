@@ -3,7 +3,7 @@ import React from 'react'
 import '../../css/about.css'
 
 
-const About = () => {
+const ServicesAbout = () => {
     return (
         
             <div className="about">
@@ -55,4 +55,4 @@ const About = () => {
     )
 }
 
-export default About
+export default ServicesAbout

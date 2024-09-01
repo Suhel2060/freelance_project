@@ -2,7 +2,7 @@ import React from 'react'
 import '../../css/teamcontent.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-const TeamContent = () => {
+const ServicesTeamContent = () => {
     return (
         <div style={{backgroundImage: "linear-gradient(180deg, #EEF8FF 0%, #EEF8FF 100%)" }}>
         <section className='container'  >
@@ -56,4 +56,4 @@ const TeamContent = () => {
     )
 }
 
-export default TeamContent
+export default ServicesTeamContent
