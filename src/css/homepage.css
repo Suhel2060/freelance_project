@@ -64,3 +64,8 @@
     text-shadow: 14px 18px 51px rgba(0, 0, 0, 0.3);
     font-weight: bolder;
 }
+@media screen and (max-width: 372px) {
+.homepage-title{
+    font-size: 3.658824rem;
+}
+  }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../css/footer.css'
+import circlelogo from '../../logo/logo-photoaidcom-cropped.jpg'
 
 
 const Footer = () => {
@@ -14,8 +15,9 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="col-md-4">
-                        <img src='https://verseengineering.com.np/wp-content/uploads/2024/02/logo-1.png' alt='..' />
+                    <div className="col-md-4"  >
+                        <img src={circlelogo} alt='..' style={{     height: '94%',width: '64%' }}/>
+                        {/* <img src={logo} alt='..' style={{ borderRadius:'10px' }}/> */}
                     </div>
                     <div className="col-md-4 p-5">
                         <div class="grid d-flex ">

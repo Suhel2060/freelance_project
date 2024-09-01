@@ -41,6 +41,7 @@ const ContactusForm = () => {
 
                                 </div>
 
+
                             </div>
                             <div class="form-group">
                                
@@ -49,7 +50,9 @@ const ContactusForm = () => {
                             <div class="form-group">
 
                                 <input type="text" class="form-control" id="inputAddress2" placeholder="Subject" />
-                            </div>
+
+                </div>
+               
                             <div class="form-floating">
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style={{height:"100px",resize: "none"}}></textarea>
                                 <label for="floatingTextarea">Your Message</label>
