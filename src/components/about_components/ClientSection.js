@@ -16,7 +16,7 @@ const ClientSection = () => {
 </div>
 <h2 className='homepage-title'>
 <ScrollAnimation animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll  >
-About Verse
+SERVICES WE OFFER
 </ScrollAnimation>
 </h2>
 
