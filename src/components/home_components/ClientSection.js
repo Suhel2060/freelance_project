@@ -65,7 +65,7 @@ const ClientSection = () => {
                                     <img src={house_1} alt="" className='house-img' />
                                 </div>
                                 <div className='client-title'>
-                                New construction for client Padam Karki, Valam.
+                                New construction for client Minu Basnet, Batulechaur.
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const ClientSection = () => {
                                     <img src={house_2} alt="" className='house-img' />
                                 </div>
                                 <div className='client-title'>
-                                New construction for client Padam Karki, Valam.
+                                Renovation and Remodeling for client Tej Prasad Adhikari , Lamachaur.
                                 </div>
                             </div>
                         </div>
