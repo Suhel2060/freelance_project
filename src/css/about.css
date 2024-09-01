@@ -84,3 +84,23 @@ h4{
 
     }
   }
+
+  /* services */
+  .services-button{
+    color: #2c2927;
+    border-style: solid;
+    text-decoration: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    padding: 8px 22px;
+    color: black;
+  }
+  .aboutsection-hireus-section{
+    margin-bottom: 5rem;
+  }
+  .aboutsection-data, .services-button{
+    margin: 20px;
+  }
