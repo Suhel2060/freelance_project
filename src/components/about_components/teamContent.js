@@ -4,20 +4,11 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const ServicesTeamContent = () => {
     return (
-        <div style={{backgroundImage: "linear-gradient(180deg, #EEF8FF 0%, #EEF8FF 100%)" }}>
-        <section className='container'  >
-            <div className='title mb-3 me-5'>
-                <h1>Why Choose Us?</h1>
-            </div>
-            <div className='py-4 me-4 company-para'>
-                <b>We are the right term for your business. We have the expertise and knowledge to offer impartial advice and services at an honest price.</b>
-            </div>
-            <div className='company-info'>
-                <div>We have been working as a survey for:-</div><br />
-                <div className='me-5'>NLG Insurance Company Ltd, Siddhartha Insurance Company Ltd, Sikhar Insurance Company Ltd. We also have been working as an interior and exterior designer for private as well as commercial projects</div>
-            </div>
+        <div style={{backgroundImage: "linear-gradient(180deg, #EEF8FF 0%, #EEF8FF 100%)",margin:'0px' }}>
 
-            <div className="card border-0 mt-5">
+        <section className='project-section pb-5'>
+        <section className='container aboutsection-container'  >
+            <div className="card border-0">
                 <div className="row g-0">
                     <div className="col-md-4 company-detail">
                         <div className="card-body ">
@@ -32,7 +23,6 @@ const ServicesTeamContent = () => {
                 </div>
             </div>
         </section>
-        <section className='project-section pb-5'>
             <div className="card container bg-transparent border-0">
                 <div className="row g-0">
                     <div className="col-md-6 mt-5">
