@@ -15,7 +15,7 @@ const ContactSection = () => {
 </div>
 <h2 className='homepage-title'>
 <ScrollAnimationMin animateIn="fadeIn" animateOnce={true} initiallyVisible={true} animatePreScroll  >
-About Verse
+CONTACT INFO
 </ScrollAnimationMin>
 </h2>
 

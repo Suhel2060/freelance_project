@@ -1,20 +1,75 @@
-.contactuscontainer{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-/* .clientsectioninfo{
-    width: 50%;
-} */
-
-.clientsectionform{
-    background-color: white;
-    margin-right: 1.5rem;
-    padding: 3rem;
+.container{
+    --bs-gutter-x: 0;
 }
 
-@media screen and (max-width: 423px) {
-    .contactuscontainer{
-        display: grid;
-        grid-template-columns: auto;
+.contact-heading{
+    font-family: "DM Serif Text", serif;
+    color: #3a3a3a;
+
+}
+p{
+    font-family: "Poppins", sans-serif;
+    color: #4b4f58;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+
+
+.media-icon{
+    color: #69727d;
+    font-size: 25px;
+}
+.form-heading{
+    font-family: "DM Serif Text", serif;
+    color: #3a3a3a;
+    font-size: 30px;
+    font-weight: normal;
+}
+.form-control{
+    font-size: 16px;
+    border-radius: 2px;
+    color: #666;
+    padding:12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.form-group{
+    margin-bottom: 20px;
+   
+}
+.floatingTextarea{
+    font-size: 16px;
+    border-radius: 2px;
+    color: #666;
+    padding:12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.submit-btn{
+    background-color: #004589;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    border-radius: 1px;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width: 900px) {
+    .contact-heading{
+      font-size: 30px;
+    
     }
+    .conatctnumber p{
+        font-size: 15px;
+    
+    }
+    .form-heading{
+        font-size: 20px;
+    }
+    .clientsectionform{
+        margin-top: 30px;
+    }
+    
   }

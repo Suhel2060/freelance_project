@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../css/teamcontent.css'
-import ScrollAnimation from 'react-animate-on-scroll'
+
 
 const ServicesTeamContent = () => {
     return (
